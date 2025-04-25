@@ -24,7 +24,27 @@ const router = createRouter({
   // 使用HTML5 History API，没有#号
   history: createWebHistory(),
   // 自动生成的路由配置
-  routes: [...routes],
+  routes: [
+    // 手动添加TDChat页面路由
+    {
+      path: '/tdchat',
+      name: 'TDChat',
+      component: () => import('../views/TDChat.vue'),
+      meta: {
+        title: 'TDesign Chat for AI'
+      }
+    },
+    // 添加AIChat页面路由
+    {
+      path: '/aichat',
+      name: 'AIChat',
+      component: () => import('../views/AIChat.vue'),
+      meta: {
+        title: 'AI智能对话助手'
+      }
+    },
+    ...routes
+  ],
   // 滚动行为控制
   scrollBehavior(_to, _from, savedPosition) {
     // 如果有保存的位置则滚动到该位置

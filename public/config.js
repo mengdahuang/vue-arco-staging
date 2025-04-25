@@ -11,16 +11,16 @@ window.APP_CONFIG = {
   APP_KEYWORDS:
     "Vue3脚手架,TypeScript,Vite,Arco Design,Tailwind CSS,Pinia状态管理,前端开发模板,组件化开发,企业级应用,响应式设计,深色模式,开发效率,现代前端工具链",
   // 页脚版权信息，显示在页面底部
-  FOOTER_COPYRIGHT: "ORENCE",
+  FOOTER_COPYRIGHT: "ZLIT",
   // 作者信息，显示在关于页面
-  AUTHOR_NAME: "ORENCE团队",
+  AUTHOR_NAME: "ZLIT团队",
   // 作者联系图片，显示在关于页面
-  AUTHOR_CONTACT_IMAGE: "https://io.onenov.cn/file/202411070219075.jpg",
+  AUTHOR_CONTACT_IMAGE: "",
   // 网站ICP备案号，中国大陆网站需要填写
-  ICP_RECORD: "滇ICP备2024024433号-4",
+  ICP_RECORD: "京ICP备05006255号-1",
   // 更多页脚信息
-  FOOTER_DESCRIPTION: "潮汐",
-  FOOTER_DESCRIPTION_URL: "https://orence.net",
+  FOOTER_DESCRIPTION: "AiT",
+  FOOTER_DESCRIPTION_URL: "https://www.zhonglun.com",
   // 应用版本号，用于标识当前应用版本
   APP_VERSION: "1.0.0",
 };

@@ -4,6 +4,7 @@ import ArcoVue from '@arco-design/web-vue'
 import ArcoVueIcon from '@arco-design/web-vue/es/icon';
 import { install as IconParkInstall } from '@icon-park/vue-next/es/all';
 import { MotionPlugin } from '@vueuse/motion'
+import TDesignChat from '@tdesign-vue-next/chat'
 
 import router from './router'
 
@@ -12,6 +13,7 @@ import './assets/css/main.css'
 import './assets/css/light.less'
 import './assets/css/dark.less'
 import '@arco-design/web-vue/dist/arco.css'
+import 'tdesign-vue-next/es/style/index.css'
 import './assets/css/style.less'
 import './assets/css/mobile.less'
 
@@ -28,5 +30,7 @@ app.use(ArcoVueIcon as any);
 IconParkInstall(app, 'i');
 // 安装Motion动画插件
 app.use(MotionPlugin)
+// 安装TDesign Chat组件
+app.use(TDesignChat)
 
 app.mount('#app')

@@ -11,6 +11,14 @@
       </template>
       <template #extra>
         <a-space>
+          <router-link to="/aichat">
+            <a-button type="primary" size="small">
+              <template #icon>
+                <icon-robot />
+              </template>
+              AI对话
+            </a-button>
+          </router-link>
           <theme-switch />
           <router-link to="/about">
             <a-button type="secondary" shape="circle" size="small">
